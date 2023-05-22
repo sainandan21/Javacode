@@ -12,7 +12,7 @@ public class Swimcoach implements Coach{
 
     @Override
     public String getDailyWorkout() {
-        return "Practice Swimming for 3";
+        return "Practice Swimming for 30";
     }
 
 }
