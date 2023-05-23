@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component //marks the class as a spring bean
 //@Lazy //it will not create any beans until we tell to the democontroller.
-//@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class Cricketcoach implements Coach {
 
     public Cricketcoach() {
